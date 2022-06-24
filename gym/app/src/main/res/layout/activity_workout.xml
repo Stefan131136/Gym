@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkoutActivity">
+
+    <Button
+        android:id="@+id/btnSoundStrt"
+        android:layout_width="19dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="72dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/txtTimer"
+        app:layout_constraintEnd_toStartOf="@+id/txtNatpis"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnSoundRest"
+        android:layout_width="19dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="72dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/txtTimer"
+        app:layout_constraintEnd_toStartOf="@+id/txtNatpis"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <Button
+        android:id="@+id/btnFin"
+        android:layout_width="19dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="72dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/txtTimer"
+        app:layout_constraintEnd_toStartOf="@+id/txtNatpis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <Button
+        android:id="@+id/btnVib"
+        android:layout_width="19dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="68dp"
+        android:text="Button"
+        app:layout_constraintEnd_toStartOf="@+id/txtNatpis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="150sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <TextView
+        android:id="@+id/txtNatpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORK"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <Button
+        android:id="@+id/btnpause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+
+        android:text="PAUSE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtNatpis"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <ListView
+        android:id="@+id/listV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="340dp"
+        />
+
+    <Button
+        android:id="@+id/btnInv"
+        android:layout_width="19dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/txtTimer"
+        app:layout_constraintEnd_toStartOf="@+id/txtNatpis"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVib"
+        app:layout_constraintVertical_bias="0.6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

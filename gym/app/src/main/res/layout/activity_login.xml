@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="45dp"
+            android:text="Log In"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+        <EditText
+            android:id="@+id/txtem"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24dp"
+            android:hint="Enter email"
+            android:inputType="text"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/txtPas"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/deepSky"
+            android:text="Login"
+
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't Have An Account?"/>
+
+        <TextView
+            android:id="@+id/txtSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:fontFamily="sans-serif"
+            android:text="Sign in"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

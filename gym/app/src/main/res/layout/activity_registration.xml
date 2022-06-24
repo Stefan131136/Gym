@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textViewPass"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="45dp"
+            android:text="Sign In"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+        <EditText
+            android:id="@+id/textViewUser"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24dp"
+            android:hint="Enter email"
+            android:inputType="text"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/textViewPas"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/deepSky"
+            android:text="Register"
+
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Alredy Have An Account?" />
+        <TextView
+            android:id="@+id/textHave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Login Here" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

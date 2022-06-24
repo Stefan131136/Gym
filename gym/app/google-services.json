@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "201734301659",
+    "project_id": "logindemo-507d6",
+    "storage_bucket": "logindemo-507d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201734301659:android:01ee1d0902b254627a69fe",
+        "android_client_info": {
+          "package_name": "com.example.gym_planner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201734301659-440uc1nj0uu2j01hqrdidfmacf7rcb41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdzleT0hJHHtVpV0OgE3Bt1lZY65tPFGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201734301659-440uc1nj0uu2j01hqrdidfmacf7rcb41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
